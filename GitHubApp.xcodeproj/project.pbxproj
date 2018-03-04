@@ -54,6 +54,7 @@
 		D5BEC737204C920100B08753 /* GitHubApp */ = {
 			isa = PBXGroup;
 			children = (
+				D5BEC74A204C92C100B08753 /* New Group */,
 				D5BEC738204C920100B08753 /* AppDelegate.swift */,
 				D5BEC73A204C920100B08753 /* ViewController.swift */,
 				D5BEC73C204C920100B08753 /* Main.storyboard */,
@@ -62,6 +63,13 @@
 				D5BEC744204C920100B08753 /* Info.plist */,
 			);
 			path = GitHubApp;
+			sourceTree = "<group>";
+		};
+		D5BEC74A204C92C100B08753 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
