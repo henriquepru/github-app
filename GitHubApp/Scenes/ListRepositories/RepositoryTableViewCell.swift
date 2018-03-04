@@ -16,5 +16,4 @@ class RepositoryTableViewCell: UITableViewCell {
     @IBOutlet weak var ownerFullNameLabel: UILabel!
     @IBOutlet weak var forksCountLabel: UILabel!
     @IBOutlet weak var starsCountLabel: UILabel!
-    
 }
