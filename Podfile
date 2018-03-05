@@ -7,5 +7,6 @@ target 'GitHubApp' do
 
   # Pods for GitHubApp
   pod ‘Alamofire’, ‘~> 4.6’
+  pod 'CodableAlamofire'
 
 end

@@ -16,6 +16,15 @@ class ListRepositoriesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        RepositoriesService().fetchRepositories { (response) in
+            switch response {
+            case .success(let repositories):
+                print(repositories)
+            case .error(let error):
+                print(error.localizedDescription)
+            }
+        }
+        
         configureTableView()
     }
     
